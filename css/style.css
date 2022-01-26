@@ -1,0 +1,330 @@
+/* default css stanrt */
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1140px;
+  margin: auto;
+  
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+p{
+  font-size: 16px;
+}
+/* default css end */
+/* css start for header */
+header{
+  background: #F5F5F5;
+  line-height: 50px;
+}
+.wraper{
+  overflow: hidden;
+}
+.phone{
+  width: 20%;
+  float: left;
+  font-size: 15px;
+  border-left: 1px solid #ddd;
+}
+.phone i, .email i{
+  color: #FF6937;
+  margin:0px 10px;
+  
+
+}
+
+.email{
+  width: 50%;
+  float: left;
+  font-size: 15px;
+  border-left: 1px solid #ddd;
+}
+.social{
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+.social a{
+  display: inline-block;
+  border-right:1px solid #ddd;
+  padding: 0px 15px;
+  color: black;
+  transition: .5s;
+}
+.social a:first-child{
+  border-left: 1px solid #ddd;
+}
+.social a:hover{
+  color: #FF6937;
+}
+.social a i{
+  font-size: 20px;
+}
+/* css end for header */
+
+/* style start for header-top */
+.header-top{
+  padding: 20px 0px;
+  position: sticky;
+  top: 0px;
+  background: #fff;
+  
+}
+.logo{
+  float: left;
+  width: 50%;
+}
+.menu{
+  float: right;
+  width: 50%;
+  text-align: right;
+  line-height: 60px;
+}
+.menu ul li{
+  display: inline-block
+}
+.menu ul li a{
+  font:15px;
+  color: black;
+  padding-left: 15px;
+}
+.menu ul li a:hover{
+  color: #FF6937;
+  transition: .5s;
+}
+
+/* style end for header-top */
+
+/* style start for banner */
+.banner{
+  background: url(../images/slide-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 80px 0px;
+}
+.banner-content{
+  width: 50%;
+}
+.banner-content h2{
+  font-size: 70px;
+  font-weight: bold;
+  color: #ffff;
+  text-transform: uppercase;
+}
+.banner-content p{
+  font-size:18px;
+  color: #fff;
+  font-weight: bold;
+  margin: 20px 0px;
+  line-height: 26px;
+}
+.banner-btn{
+  margin-top: 20px;
+}
+.banner-btn a{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: #FF6937;
+  padding: 20px 40px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+.banner-btn a:hover{
+  background: #252525;
+  transition: .5s;
+}
+/* style end for banner */
+/* style start for service */
+.service{
+  background: #F5F6F6;
+  padding: 80px 0px;
+}
+.service-box{
+  width:20%;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px 10px;
+  background: #fff;
+  float: left;
+  margin: 0px 15px;
+}
+
+.service-icon{
+font-size: 50px;
+color: #FF6937;
+margin: 20px 0px;
+
+}
+.service-a{
+  font-size: 26px;
+  color: black;
+}
+.service-box p{
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.service-btn{
+  font-size: 18px;
+  color: #FF6937;
+}
+/* style end for service */
+
+/*style start for work*/
+.work{
+  padding: 80px 0px;
+}
+.work-image{
+  float: left;
+  width: 50%;
+}
+.work-image img{
+  width:100% ;
+}
+.work-text{
+  width: 45%;
+  float: right;
+  padding-top:50px ;
+  
+}
+.work-text h2{
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.work-text p{
+  font-size: 20px;
+  margin: 20px 0px;
+  line-height: 26px;
+}
+
+.work-list-wrap{
+  overflow:hidden ;
+}
+.work-list-wrap .left{
+  float: left;
+  width: 50%;
+}
+.work-btn{
+  
+}
+.work-btn a{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: #FF6937;
+  padding: 20px 30px;
+}
+.work-list-wrap .rigth{
+  float: right;
+  width: 50%;
+}
+.work-list-wrap ul li{
+  font-size: 20px;
+  line-height: 36px;
+  
+}
+
+/*style end for work*/
+/* style start start for couner */
+.counter{
+  background: url(../images/why-choose-us1.jpg);
+  padding: 80px 0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  
+}
+.counter::after{
+  height: 100%;
+  width: 100%;
+  background: black;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  opacity: .2;
+  z-index: 1;
+  
+
+}
+.counter-box{
+  width: 23%;
+  display: inline-block;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  
+
+}
+.counter-box .counter-icon{
+  font-size: 50px;
+  color: #fff;
+  
+}
+.counter-box span{
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+.counter-box h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+/* style start end for couner */
+/* style start for abour-us */
+.about-us{
+  padding: 80px 0px;
+}
+.about-text{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.about-text h2{
+  font-size: 50px;
+  text-transform: uppercase;
+  position: relative;
+  
+}
+.about-text h2::after{
+  content: '';
+  height: 3px;
+  width: 70px;
+  background: #FF6937;
+  position: absolute;
+  left: 530px;
+  bottom: -10px;
+}
+.about-text p{
+  font-size: 20px;
+  line-height: 31px;
+  margin-top: 20px;
+}
+.feature-box{
+  width: 22%;
+  display: inline-block;
+  margin: 0px 10px;
+  
+}
+.feature-img img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.feature-box h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+.feature-box p{
+  font-size: 18px;
+  line-height: 26px;
+}
+/* style end for abour-us */
